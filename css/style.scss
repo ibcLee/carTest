@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+  font-family: Helvetica, STXihei, "Microsoft YaHei", sans-serif;
+  font-weight: normal;
+}
+body{
+  height: 100%;
+  background: #7BAABE;
+}
+#wrap{
+  height: 100%;
+  overflow: hidden;
+  .line{
+    float: left;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    &.line1{
+      background: #1bbc9b;
+    }
+    &.line2{
+      background: #4BBFC3;
+    }
+    &.line3{
+      background: #7BAABE;
+    }
+  }
+  #game{
+    //    height: 100px;
+    //    width: 100px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    //  margin-left: -50px;
+  }
+  .flyCar{
+    height: 100px;
+    width: 100px;
+    background: black;
+    position: absolute;
+  }
+  .score{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    color: #cdcdcd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+  }
+}

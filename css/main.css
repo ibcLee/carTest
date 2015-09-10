@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%;
+  font-family: Helvetica, STXihei, "Microsoft YaHei", sans-serif;
+  font-weight: normal; }
+
+body {
+  height: 100%;
+  background: #7BAABE; }
+
+#wrap {
+  height: 100%;
+  overflow: hidden; }
+  #wrap .line {
+    float: left;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; }
+    #wrap .line.line1 {
+      background: #1bbc9b; }
+    #wrap .line.line2 {
+      background: #4BBFC3; }
+    #wrap .line.line3 {
+      background: #7BAABE; }
+  #wrap #car {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px; }
+  #wrap .flyCar {
+    height: 100px;
+    width: 100px;
+    background: black;
+    position: absolute; }
+  #wrap .score {
+    width: 400px;
+    height: 400px;
+    font-size: 100px;
+    color: #cdcdcd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200;
+    margin-left: -200px;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
