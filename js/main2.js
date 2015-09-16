@@ -37,23 +37,14 @@ $(document).ready(function(){
             plankLeft = true;
             plankctx.clearRect(this.x,this.y,this.width,this.height);
             this.x -=20;
-            if(this.x>0) {
-                this.draw();
-            }
-            else{
-                plankctx.fillRect(0,this.y,this.width,this.height);
-            }
+            this.draw();
+
         },
         moveRight:function(){
             plankRight = true;
             plankctx.clearRect(this.x,this.y,this.width,this.height);
             this.x +=20;
-            if(this.x<canvas.width) {
-                this.draw();
-            }
-            else{
-                plankctx.fillRect(0,this.y,this.width,this.height);
-            }
+            this.draw();
         },
         draw:function(){
             plankctx.beginPath();
